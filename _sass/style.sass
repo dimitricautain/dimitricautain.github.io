@@ -1,0 +1,60 @@
+@import variables
+@import header
+@import headers
+@import wel-cam
+
+body
+  margin: 0
+  font-family: $montserrat
+  @include breakpoint(devotchka)
+    font-size: 1.5em
+
+img
+  border-radius: 25%
+  max-width: 90%
+  padding: 0.5%
+  @include breakpoint(devotchka)
+    max-width: 100%
+    padding: 0.25%
+
+p
+  margin: 4% auto
+  max-width: 75%
+  @include breakpoint(devotchka)
+    max-width: 50%
+  @include breakpoint(babushka)
+    max-width: 25%
+
+.dim-name
+  color: $original-bg
+  text-shadow: 2px 2px $link-clr
+  text-transform: capitalize
+
+
+.main-img
+  max-width: 50%
+  border-radius: 25%
+  margin: 2.5%
+  @include breakpoint(devotchka)
+    max-width: 25%
+
+.main-header
+  text-align: center
+
+.container
+  display: block
+  margin: 0
+  text-align: center
+
+#footer
+  text-align: center
+  margin: 50% 0 2% 0
+  padding: 2% 0
+  background-color: $bg-clr
+  @include breakpoint(devotchka)
+    margin: 50% 0 1% 0
+  @include breakpoint(babushka)
+    margin: 20% 0 0.5% 0
+
+a
+  color: $link-clr

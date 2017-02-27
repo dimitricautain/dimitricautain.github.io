@@ -1,0 +1,20 @@
+<div class="wel-cam">
+  <div class="welfare">
+    <h4>Welfare</h4>
+    {% assign items = site.welfare | sort: 'order' %}
+    <ul class="campaign">
+      {% for item in items %}
+        <li><a href={{ item.url }}>{{ item.title }}</a></li>
+      {% endfor %}
+    </ul>
+  </div>
+  <div class="campaigns">
+    <h4>Campaigns</h4>
+    {% assign items = site.campaigns | sort: 'order' %}
+    <ul class="campaign">
+      {% for item in items %}
+        <li><a href={{ item.url }}>{{ item.title }}</a></li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>

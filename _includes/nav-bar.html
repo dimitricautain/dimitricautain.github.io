@@ -1,0 +1,9 @@
+<div class="nav">
+  <ul class="nav-ul">
+    <li class="nav-li"><a href="/index.html">Home</a></li>
+      {% assign navlinks = site.nav-links | sort: 'order' %}
+        {% for navlink in navlinks %}
+          <li class="nav-li"><a href={{ navlink.url }}>{{ navlink.title }}</a></li>
+        {% endfor %}
+  </ul>
+</div>

@@ -1,0 +1,127 @@
+#header {
+  background-color: #FD834E;
+  margin: 0 0 3% 0; }
+
+.nav-ul {
+  list-style: none;
+  text-align: center;
+  margin: 0 auto;
+  padding: 2% 0; }
+
+.nav-li {
+  display: inline;
+  padding: 5%; }
+  .nav-li a {
+    color: #000; }
+
+h1 {
+  font-family: "Sansita", sans-serif;
+  font-weight: 800i;
+  font-size: 3em;
+  margin: 0; }
+
+h2 {
+  font-family: "Sansita", sans-serif;
+  font-weight: 800i;
+  font-size: 2em;
+  margin: 1%; }
+
+h3 {
+  font-family: "Sansita", sans-serif;
+  font-weight: 800i;
+  font-size: 1.75em;
+  margin: 1%; }
+
+h4 {
+  font-family: "Sansita", sans-serif;
+  font-weight: 800i;
+  font-size: 1.25em;
+  margin: 0; }
+
+h5 {
+  font-family: "Sansita", sans-serif;
+  font-weight: 400;
+  font-size: 1em;
+  margin: 0; }
+
+.wel-cam {
+  margin: 3% 0; }
+
+.campaign {
+  margin: 5% 0;
+  padding: 0;
+  list-style: none; }
+  @media (min-width: 48em) {
+    .campaign {
+      margin: 2% 0; } }
+  @media (min-width: 68.75em) {
+    .campaign {
+      margin: 0.5%; } }
+  .campaign li {
+    padding: 1% 0;
+    margin: auto;
+    font-size: 1.25em; }
+
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif; }
+  @media (min-width: 48em) {
+    body {
+      font-size: 1.5em; } }
+
+img {
+  border-radius: 25%;
+  max-width: 90%;
+  padding: 0.5%; }
+  @media (min-width: 48em) {
+    img {
+      max-width: 100%;
+      padding: 0.25%; } }
+
+p {
+  margin: 4% auto;
+  max-width: 75%; }
+  @media (min-width: 48em) {
+    p {
+      max-width: 50%; } }
+  @media (min-width: 68.75em) {
+    p {
+      max-width: 25%; } }
+
+.dim-name {
+  color: #E96F4E;
+  text-shadow: 2px 2px #8c2c11;
+  text-transform: capitalize; }
+
+.main-img {
+  max-width: 50%;
+  border-radius: 25%;
+  margin: 2.5%; }
+  @media (min-width: 48em) {
+    .main-img {
+      max-width: 25%; } }
+
+.main-header {
+  text-align: center; }
+
+.container {
+  display: block;
+  margin: 0;
+  text-align: center; }
+
+#footer {
+  text-align: center;
+  margin: 50% 0 2% 0;
+  padding: 2% 0;
+  background-color: #FD834E; }
+  @media (min-width: 48em) {
+    #footer {
+      margin: 50% 0 1% 0; } }
+  @media (min-width: 68.75em) {
+    #footer {
+      margin: 20% 0 0.5% 0; } }
+
+a {
+  color: #8c2c11; }
+
+/*# sourceMappingURL=style.css.map */

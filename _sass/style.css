@@ -1,0 +1,16 @@
+.nav-ul {
+  list-style: none;
+  text-align: center;
+  margin: 0 auto;
+  border: 2px dashed blue;
+  padding: 2% 0; }
+
+.nav-li {
+  display: inline;
+  border: 2px dotted pink; }
+
+body {
+  margin: 0;
+  background-color: #E96F4E; }
+
+/*# sourceMappingURL=style.css.map */

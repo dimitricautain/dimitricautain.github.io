@@ -1,0 +1,15 @@
+$bg-clr: #FD834E
+$link-clr: #8c2c11
+$original-bg: #E96F4E
+$sansita: 'Sansita', sans-serif
+$sansita-bold: 800i
+$sansita-lite: 400
+$montserrat: 'Montserrat', sans-serif
+
+@mixin breakpoint($point)
+  @if $point == babushka
+    @media (min-width: 68.75em)
+      @content
+  @else if $point == devotchka
+    @media (min-width: 48em)
+      @content
