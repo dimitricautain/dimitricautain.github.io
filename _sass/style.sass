@@ -6,7 +6,7 @@
 body
   margin: 0
   font-family: $montserrat
-  @include breakpoint(devotchka)
+  @include breakpoint(babushka)
     font-size: 1.5em
 
 img
@@ -16,6 +16,9 @@ img
   @include breakpoint(devotchka)
     max-width: 100%
     padding: 0.25%
+
+.white-text
+  color: $difclrtxt
 
 p
   margin: 4% auto
@@ -28,7 +31,6 @@ p
 .dim-name
   color: $original-bg
   text-shadow: 2px 2px $link-clr
-  text-transform: capitalize
 
 
 .main-img
@@ -43,7 +45,8 @@ p
 
 .container
   display: block
-  margin: 0
+  margin: 0 auto
+  max-width: 80%
   text-align: center
 
 #footer

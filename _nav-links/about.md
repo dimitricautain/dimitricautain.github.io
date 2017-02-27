@@ -1,15 +1,15 @@
 ---
 layout: default
-title: About
+title: Who's Dimitri?
 order: 2
 ---
 ![Dimitri sitting](/img/sitting.png)
 
-Hello! I'm Dimitri.
+That's him!
 
-I study Social Anthropology at SOAS.
+Officially, studying Social Anthropology and Politics at SOAS, but passionate about literature and social justice.
 
-I like volleyball, crochet, painting and physical activities such as marching and pushing cops off campus!
+Find him playing volleyball, crocheting, painting, marching and pushing cops off campus!
 
 ![A volleyball team](/img/volleyball.png)
 ![Dimitri crocheting](/img/knitting1.png)
